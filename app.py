@@ -39,7 +39,7 @@ if sample_btn:
         '    time.sleep(5)\n'
         '    return permissions\n'
     )
-    st.experimental_rerun()
+    st.rerun()
 
 target_code = ""
 if uploaded_file:
